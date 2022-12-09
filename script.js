@@ -9,19 +9,19 @@ buttonTaart.addEventListener('click', speelTaart);
 buttonMedaille.addEventListener('click', speelMedaille);
 
 function speelDisco() {
-    video.src = "vids/discospood.mp4";
+    video.src = "discospood.mp4";
     video.muted = false;
     console.log('run disco');
 }
 
 function speelTaart() {
-    video.src = "vids/taartspood.mp4";
+    video.src = "taartspood.mp4";
     video.muted = false;
     console.log('run taart');
 }
 
 function speelMedaille() {
-    video.src = "vids/medaillespood.mp4";
+    video.src = "medaillespood.mp4";
     video.muted = false;
     console.log('run medaille');
 }
